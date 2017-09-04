@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,800,700);
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
+		margin: 0;
+}
+
+
+header {
+    background-color: #0a5517;
+    background-image: -moz-radial-gradient(center,ellipse cover,#19882c 1%,#025310 100%);
+    background-image: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(1%,#19882c),color-stop(100%,#025310));
+    background-image: -webkit-radial-gradient(center,ellipse cover,#19882c 1%,#025310 100%);
+    background-image: -o-radial-gradient(center,ellipse cover,#19882c 1%,#025310 100%);
+    background-image: -ms-radial-gradient(center,ellipse cover,#19882c 1%,#025310 100%);
+    background-image: radial-gradient(ellipse at center,#19882c 1%,#025310 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#177b28,endColorstr=#025310,GradientType=1);
+    color: #fff;
+
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+
+header #accessibility {
+    font-family: Arial,Helvetica,sans-serif!important;
+    margin: 0;
+    line-height: 5px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+header #accessibility li {
+    line-height: 5px;
+    margin: 0 10px 0 0;
+    display: inline;
+}
+header #accessibility a {
+    color: #fff;
+    font-size: .7em;
+}
+header #accessibility a span {
+    background-color: #b6dbbc;
+    color: #0a5517;
+    padding: 0 2px 0 3px;
+}
+
+header #logo h1 {
+    font-family: "open_sansextrabold",'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 2.1em;
+    line-height: .8em;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+header #logo .portal-title-1 {
+    font-size: .75em;
+    display: block;
+    height: 21px;
+}
+header #logo .portal-description {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    position: relative;
+    top: 4px;
+}
+header .menu-servicos{
+    width: 100%;
+    font-size: 0.9em;
+    text-align: right;
+    color: #fff;
+    background-color: #084312;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+#main_navigation {
+  padding: 20px;
+}
+#main_navigation .vertical{
+  background: #ffffff;
+  border: 0px;
+}
+#main_navigation h2 {
+    border-top: 3px solid #00500f;
+    padding: 12px 12px 5px 10px;
+    height: 42px;
+    background: #eaebee;
+    text-transform: uppercase;
+    font-size: .85em;
+    line-height: 1em;
+    color: #00500f;
+    position: relative;
+}
+#main_navigation li {
+  border-bottom: 1px solid #e8e7e7;
+}
+#menu_navigation li a{
+  font-size: 1em;
+  color: #172938;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "open_sanssemibold",'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+main h2{
+    color: #1e68d0;
+    font-size: 1.7em;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e8e7e7;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+main h3{
+  color: #1e68d0;
+  font-size: 1.6em;
+}
+main h4{
+  color: #1e68d0;
+  font-size: 1.5em;
+}
+main a{
+  text-decoration:underline;
+  color: #111111;
+}
+#content{
+  padding-top: 20px;
+    text-align: justify;
+}
+.outstanding-title{
+  line-height: 1em;
+  margin: 11px 8px 14px 8px;
+  font-size: 1.45em;
+  font-weight: 400;
+  color: #3268ba;
+  border-top: 4px solid #3268ba;
+  background: #eeeff2;
+  height: 57px;
+  margin: 0 0 22px 0;
+  padding: 10px;
+  position: relative;
+}
+#noticias{
+  margin-bottom: 20px;
+}
+#noticias span{
+  font-size: 0.8em;
+}
+#noticias a{
+  color: #000000;
+  text-decoration: none;
+}
+#noticias h2{
+  font-size: 1em;
+  line-height: 1em;
+  margin: 2px;
+  margin-bottom: -4px;
+  font-family: "open_sansregular",'Open Sans',Arial,Helvetica,sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  border: none;
+
+}
+.parceiros{
+    color: #ee0000;
+    border-top: 4px solid #ee0000;
+}
+#parceiros{
+  text-align: center;
+}
+.minhalista li{
+  border-bottom: 1px solid rgb(232, 231, 231);
+  padding: 20px;
+  list-style: none;
+}
+.voltar-ao-topo a{
+  text-decoration: none;
+  color: #717782;
+  font-size: 0.8em;
+}
+.container-menus{
+  background-color: #0a5517;
+  color: #fff;
+}
+.footer-menus{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 30px;
+}
+.footer-ferramenta{
+  font-size: 0.7em;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<title>Titulo do site</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Descrição do site" />
+
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="css/style-mobile.css" />
+	<link rel="stylesheet" type="text/css" href="css/fontes.css" media="all" />
+	<link rel="stylesheet" href="css/fonts/font-awesome-4.2.0/css/font-awesome.min.css" type='text/css'/>
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/kickstart.js"></script>
+</head>
+<body>
+	<header class="row" id="top">
+		<div class="grid">
+			<ul id="accessibility">
+						<li>
+							<a accesskey="1" href="#content" id="link-conteudo">
+								Ir para o conteúdo
+								<span>1</span>
+							</a>
+						</li>
+						<li>
+							<a accesskey="2" href="#main_navigation" id="link-navegacao">
+								Ir para o menu
+								<span>2</span>
+							</a>
+						</li>
+						<li>
+							<a accesskey="3" href="#footer" id="link-rodape">
+								Ir para o rodapé
+								<span>3</span>
+							</a>
+						</li>
+				</ul>
+				<div id="logo">
+						<a href="#" title="Nome da Instituição">
+						<span class="portal-title-1">SIGLA</span><h1 class="portal-title corto">Nome da Instituição</h1>
+						<span class="portal-description">NOME DO MINISTERIO </span>
+						</a>
+				</div><!-- fim logo -->
+			</div> <!-- End Grid -->
+			<div class="menu-servicos">
+					<div class="grid">
+							<a href="#">Menu de Serviços</a>
+					</div> <!-- fim do grid -->
+			</div><!-- fim do menu-servicos -->
+	 </header>
+	 <main class="row">
+		 	<div class="grid">
+					<div class="col_3">
+							<nav id="main_navigation">
+								  <h2>MENU</h2>
+									<ul class="menu vertical" id="mobile-remove" style="display: block;">
+											<li><a href="#">Item 1</a>
+													<ul>
+															<li><a href="#">Item 1.1</a></li>
+															<li><a href="#">Item 1.2</a></li>
+													</ul>
+											</li>
+											<li><a href="#">Item 2</a></li>
+											<li><a href="#">Item 3</a></li>
+											<li><a href="#">Item 4</a></li>
+											<li><a href="#">Item 5</a></li>
+											<li><a href="#">Item 6</a></li>
+											<li><a href="#">Item 7</a></li>
+									</ul>
+							</nav>
+					</div><!-- fim col_3 -->
+					<div id="content" class="col_9">
+						Conteudo
+					</div><!-- fim content -->
+			</div><!-- fim grid -->
+	 </main>
+	 <footer id="footer" class="row">
+		 		<div class="grid">
+						<div class="pull-right voltar-ao-topo"><a href="#top"><i class="icon-chevron-up"></i>&nbsp;Voltar para o topo</a></div>
+				</div><!-- fim do grid -->
+				<div class="container-menus row">
+    				<div  class="grid footer-menus">
+							Menus do site ou informaçõe de contatos
+    				</div><!-- fim grid footer-menus -->
+			</div><!-- fim container-menus row -->
+			<div class="footer-ferramenta">
+				<div class="grid">
+					<p>Desenvolvido por: Fábio Naves</p>
+				</div>
+			</div>
+	 </footer>
+</body>
+</html>
